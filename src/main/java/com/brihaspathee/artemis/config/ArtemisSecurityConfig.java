@@ -84,6 +84,7 @@ public class ArtemisSecurityConfig {
             "/swagger-ui.html",
             "/v3/api-docs.yaml",
             "/api/v1/artemis/auth/public/**",
+            "/actuator/**",
             // other public endpoints of your API may be appended to this array
 //            "/artemis/jwt/authenticate",
 //            "/api/v1/artemis/welcome",
