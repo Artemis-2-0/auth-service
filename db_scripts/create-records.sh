@@ -113,7 +113,7 @@ db.resource.insertOne({
   resourceOwner: "ACCOUNT-MANAGEMENT",
   authorities: [
     {
-      permission: "account.write"
+      permission: "account.create"
     }
   ]
 });
