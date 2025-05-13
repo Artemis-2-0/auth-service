@@ -134,6 +134,8 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "✅ Version update pushed successfully."
+# Login to git hub
+echo "$GH_PAT" | docker login ghcr.io -u vbalaji215-dev --password-stdin
 # Define variables to push image to docker hub
 IMAGE_NAME="auth-service"
 CONTAINER_REPO="ghcr.io"
